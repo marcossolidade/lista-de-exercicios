@@ -20,7 +20,7 @@ public class emanuel_degustador_mucilon {
             }
 
             if((idade >=12) && (idade<19)){
-                String chato  = "Adolescente, ou seja chato pra porra";
+                String chato  = "Adolescente, ou seja chato demais";
                 JOptionPane.showMessageDialog( null, chato);
             }
 
@@ -40,7 +40,7 @@ public class emanuel_degustador_mucilon {
             }
 
             if(idade >101){
-                String alex  = "ALEX E WALLBERT, AQUI ANTES DO  UNIVERSO";
+                String alex  = "ALEX E WALLBERT, JÁ ESTAVAM AQUI ANTES DO  UNIVERSO";
                 JOptionPane.showMessageDialog( null, alex);
             }
             
