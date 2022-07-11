@@ -40,7 +40,7 @@ public class emanuel_degustador_mucilon {
             }
 
             if(idade >101){
-                String alex  = "ALEX E WALLBERT, JÁ ESTAVAM AQUI ANTES DO  UNIVERSO";
+                String alex  = "ALEX E WALLBERT, JÁ ESTAVAM AQUI NA PRIMEIRA MISSA.";
                 JOptionPane.showMessageDialog( null, alex);
             }
             
