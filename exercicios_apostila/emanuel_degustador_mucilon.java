@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import javax.swing.*;
-public class emanuel_degustador_mucilon {
+public class  teste_idade {
 
     public static void main (String[] args){
         Integer idade;
@@ -10,38 +10,33 @@ public class emanuel_degustador_mucilon {
                 System.out.printf("Digite a idade: ");
                 idade = scan.nextInt();
                         if((idade >=0) && (idade<2)){
-                String bb  = "Que  isso mó bebê";
+                String bb = "Bebê";
                 JOptionPane.showMessageDialog( null, bb);
             }
 
             if((idade >=3) && (idade<11)){
-                String crianca  = "Criança ainda, padre gosta";
+                String crianca  = "Criança";
                 JOptionPane.showMessageDialog( null, crianca);
             }
 
             if((idade >=12) && (idade<19)){
-                String chato  = "Adolescente, ou seja chato demais";
-                JOptionPane.showMessageDialog( null, chato);
+                String adolescente  = "Adolescente";
+                JOptionPane.showMessageDialog( null, adolescente);
             }
 
             if((idade >=20) && (idade<30)){
-                String jovem  = "Jovem, tá safe lek";
+                String jovem  = "Jovem";
                 JOptionPane.showMessageDialog( null, jovem);
             }
 
             if((idade >=31) && (idade<60)){
-                String pv  = "Adulto, pré velho, piadas ruins";
-                JOptionPane.showMessageDialog( null, pv);
+                String adulto  = "Adulto";
+                JOptionPane.showMessageDialog( null, adulto);
             }
 
             if((idade >=61) && (idade<100)){
-                String velho  = "Velho, chachaça e truco";
-                JOptionPane.showMessageDialog( null, velho);
-            }
-
-            if(idade >101){
-                String alex  = "ALEX E WALLBERT, JÁ ESTAVAM AQUI NA PRIMEIRA MISSA.";
-                JOptionPane.showMessageDialog( null, alex);
+                String idoso  = "Idoso";
+                JOptionPane.showMessageDialog( null, idoso);
             }
             
         }
